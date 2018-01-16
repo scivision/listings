@@ -16,13 +16,13 @@ real(kind=real32) :: r32
 real(kind=real64) :: r64
 real(kind=real128) :: r128
 
-write(*,*) huge(i8)
-write(*,*) huge(i16)
-write(*,*) huge(i32)
-write(*,*) huge(i64)
+print *, huge(i8)
+print *, huge(i16)
+print *, huge(i32)
+print *, huge(i64)
 
-write(*,*) tiny(r32), huge(r32)
-write(*,*) tiny(r64), huge(r64)
-write(*,*) tiny(r128), huge(r128)
+print *, tiny(r32), huge(r32)
+print *, tiny(r64), huge(r64)
+print *, tiny(r128), huge(r128)
 
 end program data_types
